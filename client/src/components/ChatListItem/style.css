@@ -1,0 +1,61 @@
+.component-chat-list-item {
+  cursor: pointer;
+  transition: background-color 200ms linear;
+}
+.component-chat-list-item.current {
+  background-color: rgba(161, 202, 241, 0.8);
+}
+.component-chat-list-item:hover {
+  background-color: rgba(161, 202, 241, 0.4);
+}
+.component-chat-list-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.component-chat-list-item .chat-list-item {
+  height: 90px;
+  border-bottom: 2px solid #f0f0f0;
+}
+.component-chat-list-item .chat-list-item-info {
+  width: 100%;
+}
+.component-chat-list-item .chat-list-item-border {
+  display: flex;
+  border-left: 2px solid #A1CAF1;
+  height: 100%;
+}
+.component-chat-list-item .chat-list-item-border.closed {
+  border-left: 2px solid #FF9078;
+}
+.component-chat-list-item .chat-list-item-border .chat-list-item-info {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+.component-chat-list-item .chat-list-item .chat-name {
+  margin: 0;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .component-chat-list-item .chat-list-item .chat-name {
+    font-size: 3vw;
+  }
+}
+.component-chat-list-item .chat-list-item-avatar {
+  height: 50px;
+  width: 50px;
+  background: url('../../assets/img/user.png') center center / cover;
+  margin-right: 30px;
+  border-radius: 100px;
+}
+.component-chat-list-item .chat-list-unreadCount {
+  display: flex;
+  margin: 0 1.25rem 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ff9078;
+  border-radius: 50%;
+  color: #fff;
+}

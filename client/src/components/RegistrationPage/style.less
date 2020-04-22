@@ -1,0 +1,58 @@
+section.registration {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+
+  .registration-wrapper {
+    width: 30rem;
+    min-width: auto;
+
+    .RegistrationPage {
+      text-align: center;
+      padding: 3%;
+      background-color: rgba(255, 255, 255, 0.5);
+
+      &-title {
+        font-size: 25px !important;
+        color: #000 !important;
+      }
+
+      .socials {
+        margin-bottom: 1rem;
+
+        button {
+          margin-top: 1.5rem;
+          width: 100%;
+          height: 4.2rem;
+          justify-content: center;
+        }
+      }
+
+      &-btn {
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+      }
+
+      .ant-radio-group {
+        text-align: center;
+        width: 100%;
+
+        .ant-radio-button-wrapper {
+          width: 50%;
+        }
+      }
+
+      .ant-form-item {
+        margin-bottom: 0.75rem;
+
+        &-children {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+.resetPasswordFormModal .ant-modal-header {
+  text-align: center;
+}
+section.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.reset input {
+  border: 1px #2ea4db solid !important;
+}
+section.reset .offer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+section.reset .offer-wrapper > button {
+  width: 15rem;
+  margin-top: 1rem;
+}
+section.reset .offer-wrapper .indicators {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .indicators {
+    height: 2.8125rem;
+  }
+}
+section.reset .offer-wrapper .indicators .ant-btn {
+  display: flex;
+  margin-left: auto;
+}
+section.reset .offer-wrapper .indicators .ant-btn-danger {
+  background-color: #f5222d;
+  color: #fff;
+}
+section.reset .offer-wrapper .indicators .ant-btn-danger:hover {
+  background-color: #c01d24;
+}
+section.reset .offer-wrapper .indicators .selectedOptions {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .indicators .selectedOptions {
+    margin-left: 9rem;
+  }
+}
+section.reset .offer-wrapper .indicators .selectedOptions > div {
+  background-color: #007bff;
+  border-radius: 3px;
+  padding: 0.75rem 1rem;
+  margin: 0 0.5rem;
+  user-select: none;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+section.reset .offer-wrapper .slider {
+  height: 60vw !important;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .slider {
+    height: 13vw !important;
+  }
+}
+section.reset .offer-wrapper .slider .cardC {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: none !important;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .slider .cardC {
+    height: 13vw;
+  }
+}
+@media (max-width: 768px) {
+  section.reset .offer-wrapper .slider .cardC > div {
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+section.reset .offer-wrapper .slider .cardC .imgWrapper {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+section.reset .offer-wrapper .slider .cardC .imgWrapper > img {
+  height: auto;
+  width: 50%;
+}
+section.reset .offer-wrapper .slider .cardC > span:not(.ant-spin-dot) {
+  margin-top: auto;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .slider .cardC > span:not(.ant-spin-dot) {
+    font-size: 1.5rem;
+  }
+}
+section.reset .offer-wrapper .slider .cardLoad {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  width: 96vw;
+  height: 60vw;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .slider .cardLoad {
+    height: 13vw;
+  }
+}
+section.reset .offer-wrapper .OfferPage {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .OfferPage {
+    min-width: 31rem;
+  }
+}
+section.reset .offer-wrapper .OfferPage.carSelected {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .OfferPage.carSelected {
+    width: calc(100% / 3);
+  }
+}
+section.reset .offer-wrapper .OfferPage > .hidden {
+  display: none !important;
+}
+section.reset .offer-wrapper .OfferPage .name {
+  width: 100%;
+}
+section.reset .offer-wrapper .OfferPage .name input {
+  text-align: center;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .OfferPage .zip {
+    width: 20%;
+    margin-right: 5%;
+  }
+}
+section.reset .offer-wrapper .OfferPage .distance {
+  width: 100%;
+}
+section.reset .offer-wrapper .OfferPage .financing {
+  width: 100%;
+}
+@media (min-width: 769px) {
+  section.reset .offer-wrapper .OfferPage .distance,
+  section.reset .offer-wrapper .OfferPage .financing {
+    display: flex;
+  }
+}
+section.reset .offer-wrapper .OfferPage-btn {
+  min-width: 30%;
+  margin: 1rem auto 0;
+}
+section.reset .offer-wrapper .OfferPage .ant-radio-group {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  section.reset .offer-wrapper .OfferPage .ant-radio-group {
+    text-align: left;
+  }
+}
+section.reset .offer-wrapper .OfferPage .ant-radio-group .ant-radio-button-wrapper {
+  width: 50%;
+}
+section.reset .offer-wrapper .OfferPage .ant-form-item {
+  margin-bottom: 0.75rem;
+}
+section.reset .offer-wrapper .OfferPage .ant-form-item-children {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.BindOnLeadModal input {
+  margin-bottom: 1rem;
+}

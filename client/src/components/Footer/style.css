@@ -1,0 +1,8 @@
+footer {
+  margin-top: auto;
+}
+@media (max-width: 768px) {
+  footer.home-section-footer {
+    font-size: 3vw;
+  }
+}

@@ -1,0 +1,48 @@
+section.registration {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+section.registration .registration-wrapper {
+  width: 30rem;
+  min-width: auto;
+}
+section.registration .registration-wrapper .RegistrationPage {
+  text-align: center;
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+section.registration .registration-wrapper .RegistrationPage-title {
+  font-size: 25px !important;
+  color: #2EA4DB !important;
+}
+section.registration .registration-wrapper .RegistrationPage .socials {
+  margin-bottom: 1rem;
+}
+section.registration .registration-wrapper .RegistrationPage .socials button {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 4.2rem;
+  justify-content: center;
+}
+section.registration .registration-wrapper .RegistrationPage-btn {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+section.registration .registration-wrapper .RegistrationPage .ant-radio-group {
+  text-align: center;
+  width: 100%;
+}
+section.registration .registration-wrapper .RegistrationPage .ant-radio-group .ant-radio-button-wrapper {
+  width: 50%;
+}
+section.registration .registration-wrapper .RegistrationPage .ant-form-item {
+  margin-bottom: 0.75rem;
+}
+section.registration .registration-wrapper .RegistrationPage .ant-form-item-children {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

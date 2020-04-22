@@ -1,0 +1,21 @@
+.SettingsModal-controls {
+  display: flex;
+  flex-direction: column;
+}
+.SettingsModal-controls .switch {
+  display: flex;
+  margin: 0.5rem 1rem 0.5rem 0;
+  justify-content: space-between;
+}
+.SettingsModal-passwordChange {
+  margin: 1rem 0;
+}
+.SettingsModal-passwordChange > .ant-btn.ant-btn-link {
+  padding: 0 !important;
+}
+.SettingsModal-passwordChange > input {
+  margin-bottom: 0.5rem;
+}
+.SettingsModal-passwordChange > .ant-btn.ant-btn-primary {
+  margin-top: 0.5rem;
+}

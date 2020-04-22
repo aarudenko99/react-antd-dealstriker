@@ -1,0 +1,39 @@
+.big-btn {
+  width: 48%;
+  text-align: center;
+  border: 1px solid #98eae4;
+  height: 130px;
+  color: #98eae4;
+  font-size: 30px;
+  box-shadow: 0px 0px 12px #ddd;
+  background-color: white;
+
+  @media(max-width: 768px) {
+    height: 5rem;
+  }
+
+  &.selected {
+    border-color: #179cd9;
+    color: #179cd9;
+  }
+
+  &:hover {
+    border-color: #179cd9;
+    color: #179cd9;
+  }
+
+  &-unread {
+    position: absolute;
+    right: -1.5rem;
+    top: -1.5rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    background-color: orange;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+  }
+}

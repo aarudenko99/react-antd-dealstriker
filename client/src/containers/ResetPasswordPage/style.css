@@ -1,0 +1,47 @@
+section.resetPassword {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+section.resetPassword .resetPasswordForm {
+  text-align: center;
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 30rem;
+  min-width: auto;
+}
+section.resetPassword .resetPasswordForm-title {
+  font-size: 25px !important;
+  color: #000 !important;
+  margin-bottom: 2rem;
+}
+section.resetPassword .resetPasswordForm .socials {
+  margin-bottom: 1rem;
+}
+section.resetPassword .resetPasswordForm .socials button {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 4.2rem;
+  justify-content: center;
+}
+section.resetPassword .resetPasswordForm-btn {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+section.resetPassword .resetPasswordForm .ant-radio-group {
+  text-align: center;
+  width: 100%;
+}
+section.resetPassword .resetPasswordForm .ant-radio-group .ant-radio-button-wrapper {
+  width: 50%;
+}
+section.resetPassword .resetPasswordForm .ant-form-item {
+  margin-bottom: 0.75rem;
+}
+section.resetPassword .resetPasswordForm .ant-form-item-children {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

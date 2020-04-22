@@ -1,0 +1,18 @@
+.live-bids-item {
+  display: flex;
+  background-color: #ddd;
+  padding: 20px;
+  margin: 3px;
+  justify-content: space-between;
+}
+.live-bids-item-wrapper {
+  display: flex;
+}
+.live-bids-item-wrapper-text {
+  align-items: center;
+  display: flex;
+  margin-right: 30px;
+}
+.live-bids-item-wrapper-text p {
+  margin: 0 !important;
+}

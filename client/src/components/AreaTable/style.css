@@ -1,0 +1,27 @@
+.area-table {
+  margin-bottom: 2rem;
+}
+.area-table-descr {
+  margin: 20px 0px;
+}
+.area-table-descr-btn {
+  height: 100%;
+  padding: 0.75rem 1rem;
+}
+.area-table-descr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+}
+.area-table-descr > div {
+  background-color: #007bff;
+  border-radius: 3px;
+  padding: 0.75rem 1rem;
+  margin: 0 0.5rem 0.3rem;
+  user-select: none;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}

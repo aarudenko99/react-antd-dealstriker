@@ -1,0 +1,51 @@
+.live-bids{
+  width: 90%;
+  max-width: 1200px;
+
+  &-head{
+    display: flex;
+    font-size: 26px;
+    padding-left: 15px;
+    margin: 30px 0;
+    justify-content: space-between;
+  }
+  &-wrapper-big-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-spinner{
+    display: flex;
+    justify-content: center;
+  }
+
+  .ant-table {
+    width: 100%;
+    overflow: auto;
+
+    .ant-btn {
+      @media(max-width: 768px) {
+        width: 8rem;
+        height: auto;
+        min-height: 32px;
+        word-break: break-word;
+        white-space: inherit;
+      }
+    }
+
+    tr.new {
+      background-color: #f1deba;
+    }
+  }
+}
+
+section.main-info{
+  display: flex;
+  justify-content: center;
+}
+
+.ant-modal-body {
+  input {
+    border: 1px #2ea4db solid !important;
+  }
+}
