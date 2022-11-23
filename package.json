@@ -28,7 +28,7 @@
     "passport-google-token": "^0.1.2",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.5.0",
     "spdy": "^4.0.1",
     "uuidv4": "^4.0.0",
     "zipcodes": "^8.0.0"
